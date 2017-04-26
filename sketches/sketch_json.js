@@ -30,7 +30,7 @@ function gotData(data) {
    }
    textSize(20);
    text("En el universo de Star Wars se han mostrado " + data.count + " planetas.", width / 2, 150);
-   text("De estos, " + temperado + " tienen clima temperado, " + artico + " tiene clima artico, " + aridos + " tienen clima arido y " + tropical + " tienen clima tropical.", width / 2, 200);
+   text("De estos, " + temperado + " tienen clima temperado, " + artico + " tiene clima artico, " + aridos + " tienen clima arido y " + tropical + " tiene clima tropical.", width / 2, 200);
 }
 
 function draw() {
